@@ -1,0 +1,21 @@
+##  Can be commented out if causes errors.
+Options +FollowSymLinks
+
+#  mod_rewrite in use
+
+RewriteEngine On
+
+
+RewriteCond %{HTTP_HOST} ^set8.net [NC]
+RewriteRule (.*) http://www.1socialmedia.nl/$1 [R=301,L,NC]
+
+########## Begin - Joomla! core SEF Section
+#
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+RewriteRule (.*) index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+#
+########## End - Joomla! core SEF Section

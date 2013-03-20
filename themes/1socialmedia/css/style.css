@@ -1,0 +1,52 @@
+body{ padding: 0px; margin: 0px; background: #000; overflow: hidden;}
+a{border:0;}
+a img{border:0;}
+h2{ font-size: 24px; font-weight: normal; }
+.main_centering{ width: 810px; margin: 0 auto; }
+.main_wrapper{ width: 810px; background: #fff  no-repeat; margin:0 auto; min-height: 990px; padding-bottom:50px; margin-bottom: 50px; position: absolute; float: left; z-index: 9999 }
+.header{ width: 810px; height: 162px; position: relative; float: left; }
+.slider_wrap{ width: 810px; position: relative; float: left; height: 357px; background: url(../images/slider_shadow.png) no-repeat; }
+.slider_wrap_cheque { width: 810px; position: relative; float: left; height: 347px; background: url(../images/slider_shadow.png) no-repeat; }
+.slider_frame{ width: 732px; height: 323px; margin: 0 auto; }
+.slider{ width: 484px; height: 316px; position: relative; float: left; border-top: 7px solid #000; border-right: 3.5px solid #000; }
+.slider_fullwidth { width: 732px; height: 316px; position: relative; margin-top: -26px; float: left; border-top: 7px solid #000; }
+.slider_sidebar{ width:242px; height: 316px; position: relative; float: right; border-top: 7px solid #000; border-left: 3.5px solid #000; }
+.header_wrapper{width: 810px; height:550px; position: relative; float: left;  }
+.main_header_logo_frame{ width: 810px; background:url(../images/header.png) no-repeat; margin:0 auto; height: 550px;  position: absolute; float: left; z-index: 9999;}
+.head_img_youtube{ position: absolute; top:137px; left:0;z-index:1; width: 810px; height: 351px; background: url('../images/youtube_image_header.png');}
+.head_img_twitter{ position: absolute; top:137px; left:0;z-index:1; width: 810px; height: 351px; background: url('../images/twitter_image_header.png');}
+.page-title{ margin-left:36px; color:#0053a0; }
+.title_strong{ font-weight: bold; color:#e0393e;}
+iframe{   top:0; 
+		left:0; 
+		width:127%; 
+		height:120%; 
+		position:absolute;
+		 zoom: 0.20;
+		-moz-transform:scale(0.80);
+		moz-transform-origin: 0 0;
+		-o-transform: scale(0.80);
+		o-transform-origin: 0 0;
+		-webkit-transform: scale(0.80);
+		-webkit-transform-origin: 0 0;
+		overflow-y: auto;
+}
+.content{margin-left: 36px;}
+.yt-channel-holder { width: 100%; font-size: 14px; }
+.yt-channel-holder .yt-channel-list { list-style-position: outside; list-style-type: none; margin: 0; padding: 0; }
+.yt-channel-holder .yt-channel-list .yt-channel-title { }
+.yt-channel-holder .yt-channel-list .yt-channel-title a { text-decoration: none; color: #58b6dd; }
+.yt-channel-holder .yt-channel-list .yt-channel-title a:hover { text-shadow: 1px 1px 2px #999; }
+.yt-channel-holder .yt-channel-list .yt-channel-video { background: #f0f0f0; width:230px; margin-right: 24px; margin-bottom: 24px; float: left; position: relative; }
+.yt-channel-holder .yt-channel-list .yt-channel-video:hover { background-color: #333; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a { display: block; overflow: hidden; text-decoration: none; color: #58b6dd; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .thumb-wrap { width: 230px; position: relative; float: left; margin: 0 6px 0 0; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .thumb-wrap img.vid-thumb { width: 230px; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .thumb-wrap span.vid-duration { position: absolute; bottom: 8px; right: 8px; font-size: 12px; font-weight: bold; color: #eee; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .vid-details { position: relative; float: left; width: 230px; min-height: 72px; color: #58b6dd; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .vid-details span.vid-title { position: absolute; top: 0; left: 0; font-size: 14px; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .vid-details span.vid-views { position: absolute; bottom: 5px; left: 5px; font-size: 12px; color:#76777c; }
+.yt-channel-holder .yt-channel-list .yt-channel-video a .vid-details span.vid-upload { position: absolute; bottom: 5px; right: 5px; font-size: 12px; color:#76777c; }
+.yt-channel-holder .yt-channel-list .yt-channel-video:hover { background-color: #d3d3d3; }
+.yt-channel-holder .yt-channel-list .yt-channel-video:hover a .vid-details span.vid-title { text-decoration: underline; }
+.yt-channel-holder .yt-channel-list .yt-channel-copy { height: 12px; line-height: 10px; font-size: 10px; text-align: right; color: #444; }
