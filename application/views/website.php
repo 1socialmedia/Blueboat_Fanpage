@@ -44,6 +44,7 @@ iframe{
 		width:400px; 
 		height:900px; 
 		overflow-y: auto;
+		margin-top: 19px;
 }
 h3.online{
 	font-family: "Trebuchet MS",Arial,Helvetica,san-serif;
