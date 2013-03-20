@@ -65,6 +65,7 @@ h3{
        color: #5E5E5E;
 }
 p{
+	font-family: "Trebuchet MS",Arial,Helvetica,san-serif;
 	color: #7D7D7D;
     font-size: 12px;
 }
