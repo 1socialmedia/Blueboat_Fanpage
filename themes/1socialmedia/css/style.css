@@ -50,3 +50,9 @@ iframe{   top:0;
 .yt-channel-holder .yt-channel-list .yt-channel-video:hover { background-color: #d3d3d3; }
 .yt-channel-holder .yt-channel-list .yt-channel-video:hover a .vid-details span.vid-title { text-decoration: underline; }
 .yt-channel-holder .yt-channel-list .yt-channel-copy { height: 12px; line-height: 10px; font-size: 10px; text-align: right; color: #444; }
+
+.nieuwelettertypeclass{
+	/* hier dan de nieuwe styling */
+	font-family: Helvetica;
+	font-size:10px;
+}

@@ -1,6 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-
 $config['base_url']	= 'developer/facebook/blueboot';
 $config['index_page'] = 'index.php';
 $config['uri_protocol']	= 'AUTO';
