@@ -42,8 +42,7 @@ a{
 iframe{   
 		
 		width:400px; 
-		height:100%; 
-	
+		height:900px; 
 		overflow-y: auto;
 }
 h3.online{
@@ -70,18 +69,24 @@ p{
     font-size: 12px;
 }
 </style>
-
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {FB.init({appId:'504572096273231', status: true, cookie: true, xfbml: true});FB.Canvas.setAutoGrow();
+};(function() {var e = document.createElement('script'); e.type = 'text/javascript'; e.src = document.location.protocol + '//connect.facebook.net/en_GB/all.js'; e.async = true;
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
 <div class="wrap">
 	<div class="wrapframe">
 		
 <h3 class="online">Online Tickets</h3>
 <p>
-Natuurlijk is het mogelijk om online alvast kaartjes te kopen voor één van onze reguliere rondvaarten! In onderstaande webshop kunt u kaartjes kopen voor alle reguliere rondvaarten.
+Natuurlijk is het mogelijk om online alvast kaartjes te kopen voor een van onze reguliere rondvaarten! In onderstaande webshop kunt u kaartjes kopen voor alle reguliere rondvaarten.
 </p>
 		<iframe src="http://www.link2ticket.nl/ordermain.aspx?link=A1hXcUMFflhAVQ&logo=0" scrolling="no" frameborder="0"></iframe>
 	</div>
 	<div class="info">
-		<img src="/themes/1socialmedia/images/370998.ccckaartjes.jpg">
+		<img src="http://www.1socialmedia.nl/developer/facebook/blueboot/themes/1socialmedia/images/370998.ccckaartjes.jpg">
 	
 	<div class="info_box">
 		
@@ -100,7 +105,7 @@ Natuurlijk is het mogelijk om online alvast kaartjes te kopen voor één van onze 
 
 <p>De tickets voor de Blue Boat Dinner Cruise staan op datum. U bent dus gegarandeerd van plek op die betreffende datum en tijd. Wel dient u uw e-ticket aan de kassa van Blue Boat Company in te wisselen voor een boarding pass.
 
-Indien u vegetarisch eet of andere dieetwensen heeft, bijvoorbeeld allergieën, kunt u deze doorgeven aan Blue Boat Company tot 24 uur voor afvaart. Dit kan telefonisch via 020-6791370 of via de mail <a href="mailto:reservations@blueboat.nl">reservations@blueboat.nl</a>.</p>
+Indien u vegetarisch eet of andere dieetwensen heeft, bijvoorbeeld allergieen, kunt u deze doorgeven aan Blue Boat Company tot 24 uur voor afvaart. Dit kan telefonisch via 020-6791370 of via de mail <a href="mailto:reservations@blueboat.nl">reservations@blueboat.nl</a>.</p>
 
 <h3>Geldigheid tickets</h3>
 <p>
